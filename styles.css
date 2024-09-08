@@ -1,0 +1,46 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  background-color: rgb(189, 182, 165);
+}
+h2 {
+  font-family: "Alfa Slab One", serif;
+  text-align: center;
+}
+.container {
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Glassy effect shadow */
+  backdrop-filter: blur(10px); /* Glassy effect */
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #1b1c1d;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+  color: #fff;
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* Blue shadow on focus */
+  outline: none;
+}
+
+.text-danger {
+  font-size: 0.875em;
+  margin-top: 5px;
+}
